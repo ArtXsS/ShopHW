@@ -64,8 +64,8 @@ public class Cart implements Delivery {
     @Override
     public void delivery(String city, String address) {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Укажите свой адресс: ");
+        System.out.println("Укажите свой адрес: ");
         address = scanner.nextLine();
-        System.out.println("Заказ был успешно создан. Город " + city + ", адресс - " + address + " Введите `end`.");
+        System.out.println("Заказ был успешно создан. Город " + city + ", адрес - " + address + " Введите `end`.");
     }
 }
